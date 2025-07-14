@@ -1,0 +1,16 @@
+{
+    "flat_plate" : {
+        "properties" : {
+            "type" : "linear",
+            "aL0" : 0.0000,
+            "CLa" : 6.283185307179586,
+            "CmL0" : 0.0000,
+            "Cma" : 0.0000,
+            "CD0" : 0.0,
+            "CD1" : 0.0,
+            "CD2" : 0.0,
+            "CL_max" : 1.4,
+            "Comments" : "All angles in radians and slopes in 1/radians"
+        }
+    }
+}

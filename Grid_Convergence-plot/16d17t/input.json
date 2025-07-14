@@ -1,0 +1,51 @@
+{
+    "run": {
+        "distributions": ""
+    },
+    "solver": {
+        "type": "nonlinear"
+    },
+    "plane": {
+        "name": "MyAirplane",
+        "CGx": 0,
+        "CGy": 0,
+        "CGz": -2.0000000000000000
+    },
+    "reference": {
+        "area": 8.0000000000000000,
+        "longitudinal_length": 1.0,
+        "lateral_length": 8.0000000000000000
+    },
+    "condition": {
+        "alpha": 0.0,
+        "ground": 2.0000000000000000
+    },
+    "airfoil_DB": ".",
+    "wings": {
+        "Main": {
+            "name": "Main",
+            "ID": 1,
+            "is_main": 1,
+            "side": "both",
+            "connect": {
+                "ID": 0,
+                "location": "tip",
+                "dx": 0,
+                "dy": 0,
+                "dz": -2.0000000000000000,
+                "yoffset": 0
+            },
+            "span": 4.0000000000000000,
+            "sweep": 0,
+            "dihedral": 0,
+            "dihedral_file": "dihedral.txt",
+            "mounting_angle": 6.1185010423152137,
+            "washout": 0,
+            "washout_file": "washout.txt",
+            "root_chord": 1.0000000000000000,
+            "tip_chord": 1.0000000000000000,
+            "airfoils": {"flat_plate":""},
+            "grid": 100
+        }
+    }
+}}

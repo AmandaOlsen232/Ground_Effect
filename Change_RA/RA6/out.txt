@@ -1,0 +1,134 @@
+ -----------------------------------------------
+ |                                             |
+ |                         BBBBB               |
+ |                       BB   BB               |
+ |                     BB     BB               |
+ |                    BB      BB               |
+ |                  BB        BB               |
+ |                 BB         BB               |
+ |               BB           BB               |
+ |              BB        BBBBBB               |
+ |                                             |
+ |                 MachUp 1.0                  |
+ |                                             |
+ |           (c) USU Aero Lab 2018             |
+ |                                             |
+ |          This software comes with           |
+ | ABSOLUTELY NO WARRANTY EXPRESSED OR IMPLIED |
+ |                                             |
+ |           Submit bug reports to:            |
+ |           doug.hunsaker@usu.edu             |
+ -----------------------------------------------
+
+
+ Reading Input File...
+ condition.beta set to    0.0000000000000000     
+ condition.omega.roll set to    0.0000000000000000     
+ condition.omega.pitch set to    0.0000000000000000     
+ condition.omega.yaw set to    0.0000000000000000     
+ solver.convergence set to    9.9999999999999995E-007
+ solver.relaxation set to   0.90000000000000002     
+ solver.maxiter set to          100
+ Airfoil database located at: .
+
+ No controls specified.
+ Reading airfoil properties from file: ./flat_plate.json
+ flat_plate.properties.is_function set to            0
+ Loaded airfoil: flat_plate                                                                                                                                                                                              
+ wings.Main.control.span_root set to   -1.0000000000000000     
+ Successfully read input file.
+
+ Reading file: dihedral.txt
+ data size =          102
+ Reading file: washout.txt
+ data size =            5
+ Wing properties for wing named: Main                
+    Span  :    5.2777777777777777     
+    Area  :    5.2777777777777768     
+ Using Sweep Definition:            1
+
+ Reading file: dihedral.txt
+ data size =          102
+ Reading file: washout.txt
+ data size =            5
+ Wing properties for wing named: Main                
+    Span  :    5.2777777777777777     
+    Area  :    5.2777777777777768     
+ Using Sweep Definition:            1
+
+ Reading file: dihedral.txt
+ data size =          102
+ Reading file: washout.txt
+ data size =            5
+ Wing properties for wing named: Main                
+    Span  :    5.2777777777777777     
+    Area  :    5.2777777777777768     
+ Using Sweep Definition:            1
+
+ Reading file: dihedral.txt
+ data size =          102
+ Reading file: washout.txt
+ data size =            5
+ Wing properties for wing named: Main                
+    Span  :    5.2777777777777777     
+    Area  :    5.2777777777777768     
+ Using Sweep Definition:            1
+
+
+ Running command : distributions                                                                                                                                                                                           
+ ----------- Case Description ----------
+         alpha (deg) =    0.0000000000000000     
+         beta (deg) =    0.0000000000000000     
+ ---------------------------------------
+ --------- Setting Control Deflections ---------
+ Wing: Main (right side)
+     Total Control Deflection =    0.0000000000000000       (deg)
+ Wing: Main (left side)
+     Total Control Deflection =    0.0000000000000000       (deg)
+ Wing: Main (right side)
+     Total Control Deflection =    0.0000000000000000       (deg)
+ Wing: Main (left side)
+     Total Control Deflection =    0.0000000000000000       (deg)
+ -------------------------------------
+ Running the linear solver.
+ Running the Jacobian solver.
+ ---------------- Solver Settings ----------------
+ Convergence Criteria =    9.9999999999999995E-007
+    Relaxation Factor =   0.90000000000000002     
+ -------------------------------------------------
+
+  iteration   residual
+          1   1.4770654220323121E+00
+          2   1.5578427243558693E-01
+          3   1.5670125932532537E-02
+          4   1.5679423941007435E-03
+          5   1.5680355049266454E-04
+          6   1.5680448150415868E-05
+          7   1.5680457858736938E-06
+          8   1.5680454247805826E-07
+ Solution successfully converged.
+ CPU time to solve (sec):   0.34375000000000000     
+
+ Contributions to Forces and Moments at CG  in Body-Fixed Coodrinates ------------------------
+ Wing Name     side       CX                       CY                       CZ                       Cl                       Cm                       Cn                       CL                       CD
+
+ Inviscid
+Main           right     -1.2226579802946E-03      1.7223761415832E-01     -2.5000000000015E-01     -6.2735086986613E-02     -1.2924703032489E-03      1.9380092575656E-04      2.5000000000015E-01      1.2226579802946E-03
+Main           left      -1.2226579802946E-03     -1.7223761415832E-01     -2.5000000000015E-01      6.2735086986613E-02     -1.2924703032489E-03     -1.9380092575656E-04      2.5000000000015E-01      1.2226579802946E-03
+MyAirplane               -2.4453159605892E-03      0.0000000000000E+00     -5.0000000000030E-01     -2.1035804677108E-17     -2.5849406064979E-03      7.8062556418956E-19      5.0000000000030E-01      2.4453159605892E-03
+
+ Viscous
+Main           right      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00     -0.0000000000000E+00     -0.0000000000000E+00
+Main           left       0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00     -0.0000000000000E+00     -0.0000000000000E+00
+MyAirplane                0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00     -0.0000000000000E+00     -0.0000000000000E+00
+
+ Total
+Main           right     -1.2226579802946E-03      1.7223761415832E-01     -2.5000000000015E-01     -6.2735086986613E-02     -1.2924703032489E-03      1.9380092575656E-04      2.5000000000015E-01      1.2226579802946E-03
+Main           left      -1.2226579802946E-03     -1.7223761415832E-01     -2.5000000000015E-01      6.2735086986613E-02     -1.2924703032489E-03     -1.9380092575656E-04      2.5000000000015E-01      1.2226579802946E-03
+MyAirplane               -2.4453159605892E-03      0.0000000000000E+00     -5.0000000000030E-01     -2.1035804677108E-17     -2.5849406064979E-03      7.8062556418956E-19      5.0000000000030E-01      2.4453159605892E-03
+ ------------------------------------------------------------------
+Force and moment results written to: input_forces.json
+ filename set to input_distributions                                                                                                                                                                                     
+ output set to text                                                                                                                                                                                                    
+Distribution results written to: input_distributions.txt
+ CPU time total (sec):   0.35937500000000000     
