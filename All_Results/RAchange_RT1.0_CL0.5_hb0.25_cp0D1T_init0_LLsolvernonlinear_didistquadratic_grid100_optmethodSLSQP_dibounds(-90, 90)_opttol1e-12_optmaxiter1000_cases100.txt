@@ -1,0 +1,1400 @@
+
+Case
+Ra: 4.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 163.027055260835
+       x: [ 6.652e+00]
+     nit: 6
+     jac: [ 4.926e+01]
+    nfev: 18
+    njev: 6
+x array:
+ 6.6519205561586228e+00
+
+Case
+Ra: 4.111111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 158.74497906394902
+       x: [ 6.600e+00]
+     nit: 6
+     jac: [ 4.835e+01]
+    nfev: 9
+    njev: 6
+x array:
+ 6.6000652499652954e+00
+
+Case
+Ra: 4.222222222222222,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 154.694803763141
+       x: [ 6.551e+00]
+     nit: 7
+     jac: [ 4.747e+01]
+    nfev: 29
+    njev: 7
+x array:
+ 6.5509359656387964e+00
+
+Case
+Ra: 4.333333333333333,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 150.85812626703898
+       x: [ 6.504e+00]
+     nit: 7
+     jac: [ 4.662e+01]
+    nfev: 14
+    njev: 7
+x array:
+ 6.5043194237754021e+00
+
+Case
+Ra: 4.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 147.218437513916
+       x: [ 6.460e+00]
+     nit: 5
+     jac: [ 4.580e+01]
+    nfev: 6
+    njev: 5
+x array:
+ 6.4600241442083517e+00
+
+Case
+Ra: 4.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 143.760885249876
+       x: [ 6.418e+00]
+     nit: 6
+     jac: [ 4.502e+01]
+    nfev: 16
+    njev: 6
+x array:
+ 6.4178777255123958e+00
+
+Case
+Ra: 4.666666666666667,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 140.472071562144
+       x: [ 6.378e+00]
+     nit: 8
+     jac: [ 4.426e+01]
+    nfev: 38
+    njev: 8
+x array:
+ 6.3777245222335317e+00
+
+Case
+Ra: 4.777777777777778,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 137.33987937057
+       x: [ 6.339e+00]
+     nit: 5
+     jac: [ 4.353e+01]
+    nfev: 7
+    njev: 5
+x array:
+ 6.3394236536093889e+00
+
+Case
+Ra: 4.888888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 134.353323159637
+       x: [ 6.303e+00]
+     nit: 5
+     jac: [ 4.284e+01]
+    nfev: 7
+    njev: 5
+x array:
+ 6.3028472898595611e+00
+
+Case
+Ra: 5.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 131.50242009151
+       x: [ 6.268e+00]
+     nit: 5
+     jac: [ 4.216e+01]
+    nfev: 7
+    njev: 5
+x array:
+ 6.2678791719210567e+00
+
+Case
+Ra: 5.111111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 128.778078327203
+       x: [ 6.234e+00]
+     nit: 6
+     jac: [ 4.151e+01]
+    nfev: 20
+    njev: 6
+x array:
+ 6.2344133283431447e+00
+
+Case
+Ra: 5.222222222222222,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 126.171999935071
+       x: [ 6.202e+00]
+     nit: 5
+     jac: [ 4.087e+01]
+    nfev: 7
+    njev: 5
+x array:
+ 6.2023529593620506e+00
+
+Case
+Ra: 5.333333333333333,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 123.67659621218999
+       x: [ 6.172e+00]
+     nit: 5
+     jac: [ 4.026e+01]
+    nfev: 6
+    njev: 5
+x array:
+ 6.1716094632750460e+00
+
+Case
+Ra: 5.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 121.28491360680499
+       x: [ 6.142e+00]
+     nit: 5
+     jac: [ 3.968e+01]
+    nfev: 6
+    njev: 5
+x array:
+ 6.1421015843782536e+00
+
+Case
+Ra: 5.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 118.990568726019
+       x: [ 6.114e+00]
+     nit: 6
+     jac: [ 3.910e+01]
+    nfev: 13
+    njev: 6
+x array:
+ 6.1137546651148211e+00
+
+Case
+Ra: 5.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 116.787691155556
+       x: [ 6.086e+00]
+     nit: 4
+     jac: [ 3.855e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 6.0864999878555386e+00
+
+Case
+Ra: 5.777777777777778,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 114.670873018296
+       x: [ 6.060e+00]
+     nit: 5
+     jac: [ 3.801e+01]
+    nfev: 6
+    njev: 5
+x array:
+ 6.0602741940189437e+00
+
+Case
+Ra: 5.888888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 112.635124363481
+       x: [ 6.035e+00]
+     nit: 5
+     jac: [ 3.749e+01]
+    nfev: 6
+    njev: 5
+x array:
+ 6.0350187701281994e+00
+
+Case
+Ra: 6.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 110.67583361564
+       x: [ 6.011e+00]
+     nit: 4
+     jac: [ 3.699e+01]
+    nfev: 10
+    njev: 4
+x array:
+ 6.0106795919700504e+00
+
+Case
+Ra: 6.111111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 108.788732426885
+       x: [ 5.987e+00]
+     nit: 3
+     jac: [ 3.649e+01]
+    nfev: 4
+    njev: 3
+x array:
+ 5.9872065193384127e+00
+
+Case
+Ra: 6.222222222222222,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 106.969864370606
+       x: [ 5.965e+00]
+     nit: 4
+     jac: [ 3.603e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.9645530349058884e+00
+
+Case
+Ra: 6.333333333333333,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 105.215556997264
+       x: [ 5.943e+00]
+     nit: 4
+     jac: [ 3.556e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.9426759217516656e+00
+
+Case
+Ra: 6.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 103.52239683742499
+       x: [ 5.922e+00]
+     nit: 4
+     jac: [ 3.511e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.9215349747638468e+00
+
+Case
+Ra: 6.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 101.887206996698
+       x: [ 5.901e+00]
+     nit: 4
+     jac: [ 3.467e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.9010927418544625e+00
+
+Case
+Ra: 6.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 100.30702703437099
+       x: [ 5.881e+00]
+     nit: 4
+     jac: [ 3.424e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.8813142914459871e+00
+
+Case
+Ra: 6.777777777777778,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 98.77909485897109
+       x: [ 5.862e+00]
+     nit: 4
+     jac: [ 3.384e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.8621670031685333e+00
+
+Case
+Ra: 6.888888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 97.3008304089347
+       x: [ 5.844e+00]
+     nit: 4
+     jac: [ 3.343e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.8436203791065520e+00
+
+Case
+Ra: 7.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 95.8698209165549
+       x: [ 5.826e+00]
+     nit: 4
+     jac: [ 3.304e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.8256458732776801e+00
+
+Case
+Ra: 7.111111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 94.48380757898309
+       x: [ 5.808e+00]
+     nit: 4
+     jac: [ 3.266e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.8082167373197846e+00
+
+Case
+Ra: 7.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 93.14067348215049
+       x: [ 5.791e+00]
+     nit: 4
+     jac: [ 3.229e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.7913078806157792e+00
+
+Case
+Ra: 7.333333333333333,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 91.8384326424262
+       x: [ 5.775e+00]
+     nit: 4
+     jac: [ 3.192e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.7748957433026025e+00
+
+Case
+Ra: 7.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 90.5752200472814
+       x: [ 5.759e+00]
+     nit: 4
+     jac: [ 3.157e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.7589581808001551e+00
+
+Case
+Ra: 7.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 89.3492825903686
+       x: [ 5.743e+00]
+     nit: 4
+     jac: [ 3.123e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.7434743586575072e+00
+
+Case
+Ra: 7.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 88.15897080878489
+       x: [ 5.728e+00]
+     nit: 4
+     jac: [ 3.089e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.7284246566558581e+00
+
+Case
+Ra: 7.777777777777778,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 87.00273134097681
+       x: [ 5.714e+00]
+     nit: 4
+     jac: [ 3.056e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.7137905812305281e+00
+
+Case
+Ra: 7.888888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 85.8791000330756
+       x: [ 5.700e+00]
+     nit: 4
+     jac: [ 3.024e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.6995546853809618e+00
+
+Case
+Ra: 8.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 84.78669562960121
+       x: [ 5.686e+00]
+     nit: 4
+     jac: [ 2.993e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.6857004953315382e+00
+
+Case
+Ra: 8.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 83.7242139916121
+       x: [ 5.672e+00]
+     nit: 4
+     jac: [ 2.962e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 5.6722124432881795e+00
+
+Case
+Ra: 8.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 82.69042279159649
+       x: [ 5.659e+00]
+     nit: 4
+     jac: [ 2.932e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.6590758057065278e+00
+
+Case
+Ra: 8.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 81.6841566399135
+       x: [ 5.646e+00]
+     nit: 4
+     jac: [ 2.903e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.6462766465513141e+00
+
+Case
+Ra: 8.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 80.7043126024313
+       x: [ 5.634e+00]
+     nit: 4
+     jac: [ 2.875e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.6338017650823424e+00
+
+Case
+Ra: 8.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 79.74984607321781
+       x: [ 5.622e+00]
+     nit: 4
+     jac: [ 2.847e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.6216386477499842e+00
+
+Case
+Ra: 8.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 78.81976696995179
+       x: [ 5.610e+00]
+     nit: 4
+     jac: [ 2.819e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.6097754238278217e+00
+
+Case
+Ra: 8.777777777777779,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 77.913136223012
+       x: [ 5.598e+00]
+     nit: 4
+     jac: [ 2.793e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5982008244474581e+00
+
+Case
+Ra: 8.88888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 77.0290625321574
+       x: [ 5.587e+00]
+     nit: 4
+     jac: [ 2.766e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5869041447345023e+00
+
+Case
+Ra: 9.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 76.1666993673289
+       x: [ 5.576e+00]
+     nit: 4
+     jac: [ 2.741e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5758752087750860e+00
+
+Case
+Ra: 9.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 75.32524219241499
+       x: [ 5.565e+00]
+     nit: 4
+     jac: [ 2.716e+01]
+    nfev: 7
+    njev: 4
+x array:
+ 5.5651043371684477e+00
+
+Case
+Ra: 9.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 74.5039258929078
+       x: [ 5.555e+00]
+     nit: 4
+     jac: [ 2.691e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5545823169457327e+00
+
+Case
+Ra: 9.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 73.7020223901865
+       x: [ 5.544e+00]
+     nit: 4
+     jac: [ 2.667e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5443003736551022e+00
+
+Case
+Ra: 9.444444444444443,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 72.9188384268619
+       x: [ 5.534e+00]
+     nit: 4
+     jac: [ 2.643e+01]
+    nfev: 7
+    njev: 4
+x array:
+ 5.5342501454339157e+00
+
+Case
+Ra: 9.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 72.1537135090348
+       x: [ 5.524e+00]
+     nit: 4
+     jac: [ 2.620e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.5244236589040820e+00
+
+Case
+Ra: 9.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 71.4060181597289
+       x: [ 5.515e+00]
+     nit: 4
+     jac: [ 2.597e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.5148133483136004e+00
+
+Case
+Ra: 9.777777777777779,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 70.6751514673839
+       x: [ 5.505e+00]
+     nit: 4
+     jac: [ 2.575e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 5.5054118678780970e+00
+
+Case
+Ra: 9.88888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 69.9605404353398
+       x: [ 5.496e+00]
+     nit: 4
+     jac: [ 2.553e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.4962123232044648e+00
+
+Case
+Ra: 10.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 69.2616377602674
+       x: [ 5.487e+00]
+     nit: 4
+     jac: [ 2.532e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4872080853648244e+00
+
+Case
+Ra: 10.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 68.5779205579743
+       x: [ 5.478e+00]
+     nit: 4
+     jac: [ 2.511e+01]
+    nfev: 8
+    njev: 4
+x array:
+ 5.4783928160074291e+00
+
+Case
+Ra: 10.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 67.9088890155447
+       x: [ 5.470e+00]
+     nit: 4
+     jac: [ 2.490e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4697604515124993e+00
+
+Case
+Ra: 10.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 67.25406513173749
+       x: [ 5.461e+00]
+     nit: 4
+     jac: [ 2.470e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.4613051881769117e+00
+
+Case
+Ra: 10.444444444444443,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 66.61299153897819
+       x: [ 5.453e+00]
+     nit: 4
+     jac: [ 2.450e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4530214683506379e+00
+
+Case
+Ra: 10.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 65.98523040084591
+       x: [ 5.445e+00]
+     nit: 4
+     jac: [ 2.431e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.4449039674538202e+00
+
+Case
+Ra: 10.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 65.3703623794706
+       x: [ 5.437e+00]
+     nit: 4
+     jac: [ 2.411e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4369475818100552e+00
+
+Case
+Ra: 10.777777777777779,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 64.767985667739
+       x: [ 5.429e+00]
+     nit: 4
+     jac: [ 2.393e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4291474172364698e+00
+
+Case
+Ra: 10.88888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 64.17771508159919
+       x: [ 5.421e+00]
+     nit: 4
+     jac: [ 2.374e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 5.4214987783360513e+00
+
+Case
+Ra: 11.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 63.599181208181605
+       x: [ 5.414e+00]
+     nit: 4
+     jac: [ 2.356e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 5.4139971584425695e+00
+
+Case
+Ra: 11.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 63.032029605743396
+       x: [ 5.407e+00]
+     nit: 4
+     jac: [ 2.338e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.4066382301713363e+00
+
+Case
+Ra: 11.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 62.4759200518292
+       x: [ 5.399e+00]
+     nit: 4
+     jac: [ 2.320e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3994178365344476e+00
+
+Case
+Ra: 11.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 61.9305258362756
+       x: [ 5.392e+00]
+     nit: 4
+     jac: [ 2.303e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.3923319825808349e+00
+
+Case
+Ra: 11.444444444444443,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 61.3955330959741
+       x: [ 5.385e+00]
+     nit: 4
+     jac: [ 2.286e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3853768275254978e+00
+
+Case
+Ra: 11.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 60.8706401885523
+       x: [ 5.379e+00]
+     nit: 4
+     jac: [ 2.269e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3785486773347850e+00
+
+Case
+Ra: 11.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 60.355557102334
+       x: [ 5.372e+00]
+     nit: 4
+     jac: [ 2.253e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.3718439777369760e+00
+
+Case
+Ra: 11.777777777777779,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 59.850004900158694
+       x: [ 5.365e+00]
+     nit: 4
+     jac: [ 2.237e+01]
+    nfev: 6
+    njev: 4
+x array:
+ 5.3652593076300477e+00
+
+Case
+Ra: 11.88888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 59.3537151948207
+       x: [ 5.359e+00]
+     nit: 4
+     jac: [ 2.221e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.3587913728607548e+00
+
+Case
+Ra: 12.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 58.8664296540269
+       x: [ 5.352e+00]
+     nit: 4
+     jac: [ 2.205e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3524370003496635e+00
+
+Case
+Ra: 12.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 58.3878995329977
+       x: [ 5.346e+00]
+     nit: 4
+     jac: [ 2.190e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3461931325418472e+00
+
+Case
+Ra: 12.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 57.917885232881694
+       x: [ 5.340e+00]
+     nit: 4
+     jac: [ 2.175e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3400568221601610e+00
+
+Case
+Ra: 12.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 57.4561558833705
+       x: [ 5.334e+00]
+     nit: 4
+     jac: [ 2.160e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.3340252272436199e+00
+
+Case
+Ra: 12.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 57.002488947960906
+       x: [ 5.328e+00]
+     nit: 4
+     jac: [ 2.145e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.3280956064519200e+00
+
+Case
+Ra: 12.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 56.5566698504558
+       x: [ 5.322e+00]
+     nit: 4
+     jac: [ 2.130e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3222653146201386e+00
+
+Case
+Ra: 12.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 56.118491621381004
+       x: [ 5.317e+00]
+     nit: 4
+     jac: [ 2.116e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3165317985479605e+00
+
+Case
+Ra: 12.777777777777777,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 55.6877545630825
+       x: [ 5.311e+00]
+     nit: 4
+     jac: [ 2.102e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3108925930089361e+00
+
+Case
+Ra: 12.88888888888889,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 55.2642659323738
+       x: [ 5.305e+00]
+     nit: 4
+     jac: [ 2.088e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.3053453169666662e+00
+
+Case
+Ra: 13.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 54.8478396396643
+       x: [ 5.300e+00]
+     nit: 4
+     jac: [ 2.075e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2998876699854609e+00
+
+Case
+Ra: 13.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 54.438295963582696
+       x: [ 5.295e+00]
+     nit: 4
+     jac: [ 2.061e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2945174288237888e+00
+
+Case
+Ra: 13.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 54.0354612801657
+       x: [ 5.289e+00]
+     nit: 4
+     jac: [ 2.048e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2892324441997252e+00
+
+Case
+Ra: 13.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 53.6391678057606
+       x: [ 5.284e+00]
+     nit: 4
+     jac: [ 2.035e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2840306377182715e+00
+
+Case
+Ra: 13.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 53.249253352832305
+       x: [ 5.279e+00]
+     nit: 4
+     jac: [ 2.022e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2789099989514012e+00
+
+Case
+Ra: 13.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 52.86556109793229
+       x: [ 5.274e+00]
+     nit: 4
+     jac: [ 2.009e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2738685826618203e+00
+
+Case
+Ra: 13.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 52.4879393611198
+       x: [ 5.269e+00]
+     nit: 4
+     jac: [ 1.997e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2689045061622064e+00
+
+Case
+Ra: 13.777777777777777,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 52.1162413961887
+       x: [ 5.264e+00]
+     nit: 4
+     jac: [ 1.985e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2640159468023056e+00
+
+Case
+Ra: 13.888888888888888,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 51.7503251910846
+       x: [ 5.259e+00]
+     nit: 4
+     jac: [ 1.972e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2592011395768496e+00
+
+Case
+Ra: 14.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 51.3900532779399
+       x: [ 5.254e+00]
+     nit: 4
+     jac: [ 1.960e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2544583748473235e+00
+
+Case
+Ra: 14.11111111111111,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 51.035292552192594
+       x: [ 5.250e+00]
+     nit: 4
+     jac: [ 1.949e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2497859961715028e+00
+
+Case
+Ra: 14.222222222222221,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 50.6859141002772
+       x: [ 5.245e+00]
+     nit: 4
+     jac: [ 1.937e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2451823982345251e+00
+
+Case
+Ra: 14.333333333333332,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 50.3417930354342
+       x: [ 5.241e+00]
+     nit: 4
+     jac: [ 1.925e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2406460248765088e+00
+
+Case
+Ra: 14.444444444444445,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 50.0028083411761
+       x: [ 5.236e+00]
+     nit: 4
+     jac: [ 1.914e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2361753672108824e+00
+
+Case
+Ra: 14.555555555555555,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 49.6688427220137
+       x: [ 5.232e+00]
+     nit: 4
+     jac: [ 1.903e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2317689618291476e+00
+
+Case
+Ra: 14.666666666666666,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 49.3397824610385
+       x: [ 5.227e+00]
+     nit: 4
+     jac: [ 1.892e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2274253890869273e+00
+
+Case
+Ra: 14.777777777777777,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 49.015517284007
+       x: [ 5.223e+00]
+     nit: 4
+     jac: [ 1.881e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2231432714674515e+00
+
+Case
+Ra: 14.888888888888888,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 48.6959402295822
+       x: [ 5.219e+00]
+     nit: 4
+     jac: [ 1.870e+01]
+    nfev: 4
+    njev: 4
+x array:
+ 5.2189212720183926e+00
+
+Case
+Ra: 15.0,    Rt: 1.0,    CLtarget: 0.5,    h/b: 0.25
+ message: Optimization terminated successfully
+ success: True
+  status: 0
+     fun: 48.3809475253981
+       x: [ 5.215e+00]
+     nit: 4
+     jac: [ 1.859e+01]
+    nfev: 5
+    njev: 4
+x array:
+ 5.2147580928577355e+00
