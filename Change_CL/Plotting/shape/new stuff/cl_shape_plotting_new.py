@@ -4,12 +4,9 @@ import numpy as np
 import scipy
 import ZachsModules as zm
 import sys
-# zm.zp.updateRCParams(**{'text.usetex':False})
-# plt = zm.plt
+zm.zp.updateRCParams(**{'text.usetex':False})
+plt = zm.plt
 
-import matplotlib.pyplot as plt
-import MyModules as my
-plot_settings = my.MyPlot()
 
 def MachUp(x):
     ## x = [t0, t1, t2, t3, t4, t5, d1, d2, d3, d4, d5]
@@ -331,133 +328,47 @@ def runCase(Ra, Rt, CLtarget, hb, CLmax=1.4, cw=1.):
     
     get_CD.iter = 0
     
-    f = open('input.json', 'r+')
-    data = f.readlines()
-    f.seek(0)
-    data[14] = ' '*8  + '"area": {:.16f},\n'.format(Ra)
-    data[16] = ' '*8  + '"lateral_length": {:.16f}\n'.format(Ra)
-    data[20] = ' '*8  + '"ground": {:.16f}\n'.format(h)
-    data[11] = ' '*8  + '"CGz": {:.16f}\n'.format(-h)
-    data[34] = ' '*16 + '"dz": {:.16f},\n'.format(-h)
-    data[37] = ' '*12 + '"span": {:.16f},\n'.format(Ra/2)
-    data[44] = ' '*12 + '"root_chord": {:.16f},\n'.format(cr)
-    data[45] = ' '*12 + '"tip_chord": {:.16f},\n'.format(ct)
-    f.writelines(data)
-    f.close()
+    with open('input.json', 'r+') as f:
+        data = f.readlines()
+        f.seek(0)
+        data[14] = ' '*8  + '"area": {:.16f},\n'.format(Ra)
+        data[16] = ' '*8  + '"lateral_length": {:.16f}\n'.format(Ra)
+        data[20] = ' '*8  + '"ground": {:.16f}\n'.format(h)
+        data[11] = ' '*8  + '"CGz": {:.16f}\n'.format(-h)
+        data[34] = ' '*16 + '"dz": {:.16f},\n'.format(-h)
+        data[37] = ' '*12 + '"span": {:.16f},\n'.format(Ra/2)
+        data[44] = ' '*12 + '"root_chord": {:.16f},\n'.format(cr)
+        data[45] = ' '*12 + '"tip_chord": {:.16f},\n'.format(ct)
+        f.seek(0)
+        f.writelines(data)
+        f.truncate()
 
 if __name__ == '__main__':
-    #baseline wing: RA=8.0, RT=1.0, CL=0.5, hb=0.25
-    RA = [8.0]
-    RT = [1.0]
-    CL = [0.5]
-    #hb = [0.25]#np.linspace(0.1, 1.0, 100) #if h/b not changing, make sure to change for loop
+    # #baseline wing: RA=8.0, RT=1.0, CL=0.5, hb=0.25
+    # RA = [8.0]
+    # RT = [1.0]
+    # CL = [0.5]
+    # #hb = [0.25]#np.linspace(0.1, 1.0, 100) #if h/b not changing, make sure to change for loop
     d = 4
     t = 4 
-    # ma = 6
+    span_frac = span_fraction()
+    # # ma = 6
 
-    # opt_tol = 1e-12
-    # opt_method = "SLSQP"
-    # max_iter = 1000
-    
-    # didist = "quadratic" #linear, quadratic
-    # di_bounds = (-90, 90)
-    # init = "previous" #options: 0, "previous"
-    #plt.plot(y_b, z_b)
-    #plt.plot(y_b, dist["dihedral"])
-    #plt.plot(y_b, dist["twist"])
-    #plt.plot([-0.5, 0.5], [0, 0], linestyle="--")
-    
-    plot_linewidth = 2.0
-    # plot_fontsize = 20
-    # plot_font = "Times New Roman"
-    # tick_size = 18
-    # axis_thickness = 3
-    # tick_length = 4
-    # tick_width = 2
-    # large_font = 20
-    # plot_size = (6.7, 5.2)
-    # dist_plot_size = (6.7, 5.2)
-    # linestyle_list = ["-", "--", "-."]
-    # grid_on = True
-    # grid_width = 1.5
-    x_label = r"$z/b$"
-    
-    fig, cdi = plt.subplots()#figsize=plot_size)
-    cdi.set_xlabel(x_label)#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    cdi.set_ylabel(r"$h/b$")#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    # cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
-    # cdi.spines['top'].set_linewidth(axis_thickness)  
-    # cdi.spines['right'].set_linewidth(axis_thickness)  
-    # cdi.spines['bottom'].set_linewidth(axis_thickness)  
-    # cdi.spines['left'].set_linewidth(axis_thickness)
-    # cdi.grid(grid_on, linewidth=grid_width)
-    # cdi.minorticks_off()
-    # plt.gca().invert_yaxis()
-    plt.axis('equal')
-    # cdi.set_xlim(-0.55, 0.55)
-    
-    cdi.set_xlim(-0.5, 0.5)
-    xticks = np.linspace(-0.5, 0.5, num=6)
-    cdi.set_xticks(xticks)
-    
-    # cdi.set_ylim(-0.5, 8)
-    # y_ticks = np.linspace(-0.5, 8, num=6)
-    # cdi.set_yticks(y_ticks)
+    file_names = ["case_1.txt", "case_2.txt", "case_3.txt"]
+    count = 1
+    with open(file_names[count], 'r') as file:
+        opt_data = file.readlines()
 
-    #file_name = all_txt_files[0]
+    #get coefficients and x
+    full_string = opt_data[1]
+    full_string = full_string.split(",")
+    RA = float(full_string[0].split(": ")[1])
+    RT = float(full_string[1].split(": ")[1])
+    CL = float(full_string[2].split(": ")[1])
+    hb = float(full_string[3].split(": ")[1])
+    x = opt_data[14:]
+    x = [float(val) for val in x]
     
-    file_name = "use_this.txt"#RA8.0_RT1.0_CL0.5_hbchange_cp4d5t_initprevious_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases100_full.txt"
-    #for file_name in all_txt_files:
-    f = open(file_name, 'r+')
-    opt_data = f.readlines()
-    f.close() 
-    
-    linestyle_list = ["-", "--", "-."]
-    num_lines = 24
-    start = 15
-    end = 23+1
-    
-    n = int(len(opt_data)/num_lines)
-    cases = list(range(0, n))
-    count=0
-    for i in cases:
-        coeff_index = num_lines*i + 2
-        x = opt_data[num_lines*i+start:num_lines*i+end]
-        
-        coeff_string = opt_data[coeff_index]
-        x = [float(val) for val in x]#this is the x that contains the twist and dihedral info
-        
-        RA = float(coeff_string.split("Ra: ")[1].split(",    Rt")[0])
-        RT = float(coeff_string.split("Rt: ")[1].split(",    CLtarget")[0])
-        CL = float(coeff_string.split("CLtarget: ")[1].split(",    h/b")[0])
-        hb = float(coeff_string.split("h/b: ")[1].split("h/b: ")[0])
-        
-        legend = r"$C_{L}=" + f"{CL:.1f}" + "$"
-        span_frac = span_fraction()  
-        #RA, RT, CL, h/b
-        runCase(RA, RT, CL, hb)
-        MachUp(x)
-        dist = MachUpDist()
-
-        
-        #x = [ma] + [0]*t + [0]*d
-        #file_name = get_file_name()
-        span_frac = span_fraction()
-        
-        MachUp(x)
-        runCase(RA, RT, CL, hb)
-        
-        dist = MachUpDist()
-        f = open('input.json', 'r+')
-        b_data = f.readlines()
-        f.close()
-        b = 2*float(b_data[37].split('"span": ')[1].split(",")[0])
-
-        y_b = [y/b for y in dist["y"]]
-        z_b = [-z/b for z in dist["z"]]
-        
-
-        cdi.plot(y_b, z_b, color="black", linewidth=plot_linewidth, linestyle=linestyle_list[count], label=legend)
-        count+=1
-    cdi.legend(fontsize=14)
-    fig.savefig("C:/Users/A02247969/Docs/AeroLab/Ground_Effect/New_plots/CL_shapes.pdf", bbox_inches='tight')
+    runCase(RA, RT, CL, hb) #updates json with RA, RT, CL, hb
+    MachUp([0] + [0]*t + [0]*d) #updates washout dihedral and mounting angle files and runs MachUp
+    dist = MachUpDist()

@@ -200,7 +200,7 @@
         100   2.9505043399875115E+02
         101   2.2573248054541290E+02
  Solution successfully converged.
- CPU time to solve (sec):    3.4062500000000000     
+ CPU time to solve (sec):    3.2343750000000000     
 
  Contributions to Forces and Moments at CG  in Body-Fixed Coodrinates ------------------------
  Wing Name     side       CX                       CY                       CZ                       Cl                       Cm                       Cn                       CL                       CD
@@ -224,4 +224,4 @@ Force and moment results written to: input_forces.json
  filename set to input_distributions                                                                                                                                                                                     
  output set to text                                                                                                                                                                                                    
 Distribution results written to: input_distributions.txt
- CPU time total (sec):    3.4218750000000000     
+ CPU time total (sec):    3.2500000000000000     

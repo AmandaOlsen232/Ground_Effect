@@ -29,48 +29,48 @@
  solver.convergence set to    9.9999999999999995E-007
  solver.relaxation set to   0.90000000000000002     
  solver.maxiter set to          100
- Airfoil database located at: C:\Users\A02247969\Docs\AeroLab\Airfoil_Database
+ Airfoil database located at: .
 
  No controls specified.
- Reading airfoil properties from file: C:\Users\A02247969\Docs\AeroLab\Airfoil_Database/flat_plate.json
+ Reading airfoil properties from file: ./flat_plate.json
  flat_plate.properties.is_function set to            0
  Loaded airfoil: flat_plate                                                                                                                                                                                              
  wings.Main.control.span_root set to   -1.0000000000000000     
  Successfully read input file.
 
  Reading file: dihedral.txt
- data size =          102
+ data size =           38
  Reading file: washout.txt
  data size =            5
  Wing properties for wing named: Main                
-    Span  :    3.9999999999999996     
+    Span  :    4.0000000000000000     
     Area  :    4.0000000000000000     
  Using Sweep Definition:            1
 
  Reading file: dihedral.txt
- data size =          102
+ data size =           38
  Reading file: washout.txt
  data size =            5
  Wing properties for wing named: Main                
-    Span  :    3.9999999999999996     
+    Span  :    4.0000000000000000     
     Area  :    4.0000000000000000     
  Using Sweep Definition:            1
 
  Reading file: dihedral.txt
- data size =          102
+ data size =           38
  Reading file: washout.txt
  data size =            5
  Wing properties for wing named: Main                
-    Span  :    3.9999999999999996     
+    Span  :    4.0000000000000000     
     Area  :    4.0000000000000000     
  Using Sweep Definition:            1
 
  Reading file: dihedral.txt
- data size =          102
+ data size =           38
  Reading file: washout.txt
  data size =            5
  Wing properties for wing named: Main                
-    Span  :    3.9999999999999996     
+    Span  :    4.0000000000000000     
     Area  :    4.0000000000000000     
  Using Sweep Definition:            1
 
@@ -98,24 +98,23 @@
  -------------------------------------------------
 
   iteration   residual
-          1   1.8158666867298294E+00
-          2   1.9472019798076637E-01
-          3   1.9626664855619112E-02
-          4   1.9642414461823582E-03
-          5   1.9643992348119231E-04
-          6   1.9644150177642769E-05
-          7   1.9644165347957542E-06
-          8   1.9644154257079958E-07
+          1   2.9937317594748408E-01
+          2   2.9950294729281200E-02
+          3   2.9951593058435925E-03
+          4   2.9951722885721948E-04
+          5   2.9951735979437101E-05
+          6   2.9951774082764812E-06
+          7   2.9951759260597655E-07
  Solution successfully converged.
- CPU time to solve (sec):   0.28125000000000000     
+ CPU time to solve (sec):    199.25000000000000     
 
  Contributions to Forces and Moments at CG  in Body-Fixed Coodrinates ------------------------
  Wing Name     side       CX                       CY                       CZ                       Cl                       Cm                       Cn                       CL                       CD
 
  Inviscid
-Main           right     -1.7054443523749E-03      1.6918762977227E-01     -2.5000000000003E-01     -6.3305384858752E-02     -1.3668804598081E-03      2.7557996917670E-04      2.5000000000003E-01      1.7054443523749E-03
-Main           left      -1.7054443523749E-03     -1.6918762977227E-01     -2.5000000000003E-01      6.3305384858752E-02     -1.3668804598081E-03     -2.7557996917670E-04      2.5000000000003E-01      1.7054443523749E-03
-MyAirplane               -3.4108887047498E-03      0.0000000000000E+00     -5.0000000000006E-01     -1.3877787807814E-17     -2.7337609196163E-03      7.5894152073985E-19      5.0000000000006E-01      3.4108887047498E-03
+Main           right     -4.7229456887065E-03      0.0000000000000E+00     -2.6379007762869E-01     -6.0250647044254E-02      0.0000000000000E+00      1.4292709568350E-03      2.6379007762869E-01      4.7229456887065E-03
+Main           left      -4.7229456887065E-03      0.0000000000000E+00     -2.6379007762869E-01      6.0250647044254E-02      0.0000000000000E+00     -1.4292709568350E-03      2.6379007762869E-01      4.7229456887065E-03
+MyAirplane               -9.4458913774131E-03      0.0000000000000E+00     -5.2758015525738E-01      1.3877787807814E-17      0.0000000000000E+00     -1.9515639104739E-18      5.2758015525738E-01      9.4458913774131E-03
 
  Viscous
 Main           right      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00     -0.0000000000000E+00     -0.0000000000000E+00
@@ -123,12 +122,12 @@ Main           left       0.0000000000000E+00      0.0000000000000E+00      0.00
 MyAirplane                0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00      0.0000000000000E+00     -0.0000000000000E+00     -0.0000000000000E+00
 
  Total
-Main           right     -1.7054443523749E-03      1.6918762977227E-01     -2.5000000000003E-01     -6.3305384858752E-02     -1.3668804598081E-03      2.7557996917670E-04      2.5000000000003E-01      1.7054443523749E-03
-Main           left      -1.7054443523749E-03     -1.6918762977227E-01     -2.5000000000003E-01      6.3305384858752E-02     -1.3668804598081E-03     -2.7557996917670E-04      2.5000000000003E-01      1.7054443523749E-03
-MyAirplane               -3.4108887047498E-03      0.0000000000000E+00     -5.0000000000006E-01     -1.3877787807814E-17     -2.7337609196163E-03      7.5894152073985E-19      5.0000000000006E-01      3.4108887047498E-03
+Main           right     -4.7229456887065E-03      0.0000000000000E+00     -2.6379007762869E-01     -6.0250647044254E-02      0.0000000000000E+00      1.4292709568350E-03      2.6379007762869E-01      4.7229456887065E-03
+Main           left      -4.7229456887065E-03      0.0000000000000E+00     -2.6379007762869E-01      6.0250647044254E-02      0.0000000000000E+00     -1.4292709568350E-03      2.6379007762869E-01      4.7229456887065E-03
+MyAirplane               -9.4458913774131E-03      0.0000000000000E+00     -5.2758015525738E-01      1.3877787807814E-17      0.0000000000000E+00     -1.9515639104739E-18      5.2758015525738E-01      9.4458913774131E-03
  ------------------------------------------------------------------
 Force and moment results written to: input_forces.json
  filename set to input_distributions                                                                                                                                                                                     
  output set to text                                                                                                                                                                                                    
 Distribution results written to: input_distributions.txt
- CPU time total (sec):   0.32812500000000000     
+ CPU time total (sec):    199.67187500000000     

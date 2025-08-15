@@ -4,9 +4,12 @@ import numpy as np
 import scipy
 import ZachsModules as zm
 import sys
-zm.zp.updateRCParams(**{'text.usetex':False})
-plt = zm.plt
+# zm.zp.updateRCParams(**{'text.usetex':False})
+# plt = zm.plt
 
+import matplotlib.pyplot as plt
+import MyModules as my
+plot_settings = my.MyPlot()
 
 def MachUp(x):
     ## x = [t0, t1, t2, t3, t4, t5, d1, d2, d3, d4, d5]
@@ -364,31 +367,31 @@ if __name__ == '__main__':
     #plt.plot(y_b, dist["twist"])
     #plt.plot([-0.5, 0.5], [0, 0], linestyle="--")
     
-    plot_linewidth = 2.5
-    plot_fontsize = 20
-    plot_font = "Times New Roman"
-    tick_size = 18
-    axis_thickness = 3
-    tick_length = 4
-    tick_width = 2
-    large_font = 20
-    plot_size = (6.7, 5.2)
-    dist_plot_size = (6.7, 5.2)
-    linestyle_list = ["-", "--", "-."]
-    grid_on = True
-    grid_width = 1.5
-    x_label = r"$\mathregular{z/b}$"
+    plot_linewidth = 2.0
+    # plot_fontsize = 20
+    # plot_font = "Times New Roman"
+    # tick_size = 18
+    # axis_thickness = 3
+    # tick_length = 4
+    # tick_width = 2
+    # large_font = 20
+    # plot_size = (6.7, 5.2)
+    # dist_plot_size = (6.7, 5.2)
+    # linestyle_list = ["-", "--", "-."]
+    # grid_on = True
+    # grid_width = 1.5
+    x_label = r"$z/b$"
     
-    fig, cdi = plt.subplots(figsize=plot_size)
-    cdi.set_xlabel(x_label, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    cdi.set_ylabel(r"$\mathregular{h/b}$", fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
-    cdi.spines['top'].set_linewidth(axis_thickness)  
-    cdi.spines['right'].set_linewidth(axis_thickness)  
-    cdi.spines['bottom'].set_linewidth(axis_thickness)  
-    cdi.spines['left'].set_linewidth(axis_thickness)
-    cdi.grid(grid_on, linewidth=grid_width)
-    cdi.minorticks_off()
+    fig, cdi = plt.subplots()#figsize=plot_size)
+    cdi.set_xlabel(x_label)#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
+    cdi.set_ylabel(r"$h/b$")#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
+    # cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
+    # cdi.spines['top'].set_linewidth(axis_thickness)  
+    # cdi.spines['right'].set_linewidth(axis_thickness)  
+    # cdi.spines['bottom'].set_linewidth(axis_thickness)  
+    # cdi.spines['left'].set_linewidth(axis_thickness)
+    # cdi.grid(grid_on, linewidth=grid_width)
+    # cdi.minorticks_off()
     # plt.gca().invert_yaxis()
     plt.axis('equal')
     cdi.set_xlim(-0.5, 0.5)
@@ -426,7 +429,7 @@ if __name__ == '__main__':
         CL = float(coeff_string.split("CLtarget: ")[1].split(",    h/b")[0])
         hb = float(coeff_string.split("h/b: ")[1].split("h/b: ")[0])
         
-        legend = r"$\mathregular{R_{A}=" + f"{RA:.1f}" + "}$"
+        legend = r"$R_{A}=" + f"{RA:.1f}" + "$"
         span_frac = span_fraction()  
         #RA, RT, CL, h/b
         runCase(RA, RT, CL, hb)
@@ -454,3 +457,5 @@ if __name__ == '__main__':
         cdi.plot(y_b, z_b, color="black", linewidth=plot_linewidth, linestyle=linestyle_list[count], label=legend)
         count+=1
     cdi.legend(fontsize=14)
+    
+    fig.savefig("C:/Users/A02247969/Docs/AeroLab/Ground_Effect/New_plots/RA_shapes.pdf", bbox_inches='tight')

@@ -5,40 +5,51 @@ import scipy
 import ZachsModules as zm
 import sys
 from matplotlib.ticker import ScalarFormatter
-zm.zp.updateRCParams(**{'text.usetex':False})
-plt = zm.plt
+# zm.zp.updateRCParams(**{'text.usetex':False})
+# plt = zm.plt
 
-plot_linewidth = 2.5
-plot_fontsize = 20
-plot_font = "Times New Roman"
-tick_size = 18
-axis_thickness = 3
-tick_length = 4
-tick_width = 2
-large_font = 20
-plot_size = (6.7, 5.2)
-dist_plot_size = (6.7, 5.2)
+import matplotlib.pyplot as plt
+import MyModules as my
+plot_settings = my.MyPlot()
+
+plot_linewidth = 2.0
+# plot_fontsize = 20
+# plot_font = "Times New Roman"
+# tick_size = 18
+# axis_thickness = 3
+# tick_length = 4
+# tick_width = 2
+# large_font = 20
+# plot_size = (6.7, 5.2)
+# dist_plot_size = (6.7, 5.2)
 linestyle_list = ["-.", "--", "-"]
-grid_on = True
-grid_width = 1.5
-x_label = r"$\mathregular{R_{A}}$"
+# grid_on = True
+# grid_width = 1.5
+x_label = r"$R_{A}$"
 
-fig, cdi = plt.subplots(figsize=plot_size)
-cdi.set_xlabel(x_label, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-cdi.set_ylabel(r"$\mathregular{\%}$ Drag Reduction", fontsize=plot_fontsize, fontname=plot_font, fontstyle='normal')
-cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
-cdi.spines['top'].set_linewidth(axis_thickness)  
-cdi.spines['right'].set_linewidth(axis_thickness)  
-cdi.spines['bottom'].set_linewidth(axis_thickness)  
-cdi.spines['left'].set_linewidth(axis_thickness)
-cdi.grid(grid_on, linewidth=grid_width)
-cdi.minorticks_off()
-cdi.ticklabel_format(axis='y', style='plain', scilimits=(0, 0))
+#r"$\%$ Drag Reduction"
 
-# cdi.set_xlim(4, 14) 
-# #cdi.set_xticks([0.125, 0.25, 0.5, 0.75, 1.0])
-# xticks = np.linspace(4, 14, num=6)
-# cdi.set_xticks(xticks)
+fig, cdi = plt.subplots()#figsize=plot_size)
+cdi.set_xlabel(x_label)#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
+cdi.set_ylabel(r"$C_{Di}$")#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='normal')
+# cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
+# cdi.spines['top'].set_linewidth(axis_thickness)  
+# cdi.spines['right'].set_linewidth(axis_thickness)  
+# cdi.spines['bottom'].set_linewidth(axis_thickness)  
+# cdi.spines['left'].set_linewidth(axis_thickness)
+# cdi.grid(grid_on, linewidth=grid_width)
+# cdi.minorticks_off()
+# cdi.ticklabel_format(axis='y', style='plain', scilimits=(0, 0))
+
+cdi.set_xlim(4, 14) 
+#cdi.set_xticks([0.125, 0.25, 0.5, 0.75, 1.0])
+xticks = np.linspace(4, 14, num=6)
+cdi.set_xticks(xticks)
+
+cdi.set_ylim(0.0015, 0.0165)
+ymin, ymax = cdi.get_ylim()
+y_ticks = np.linspace(0.0015, 0.0165, num=6)
+cdi.set_yticks(y_ticks)
 
 # cdi.set_ylim(0.0, 70)
 # ymin, ymax = cdi.get_ylim()
@@ -104,3 +115,5 @@ for file_name in all_txt_files:
 # cdi.plot(points[:, 0], reduc_45[:, 1], color="black", linewidth=plot_linewidth, linestyle=linestyle_list[2], label="4D5T")
 # cdi.plot(points[:, 0], reduc_05[:, 1], color="black", linewidth=plot_linewidth, linestyle=linestyle_list[1], label="0D5T")
 # cdi.legend(fontsize=14)
+
+fig.savefig("C:/Users/A02247969/Docs/AeroLab/Ground_Effect/New_plots/ra_cdi.pdf", bbox_inches='tight')

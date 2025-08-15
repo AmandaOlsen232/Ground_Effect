@@ -4,8 +4,12 @@ import numpy as np
 import scipy
 import ZachsModules as zm
 import sys
-zm.zp.updateRCParams(**{'text.usetex':False})
-plt = zm.plt
+# zm.zp.updateRCParams(**{'text.usetex':False})
+# plt = zm.plt
+
+import matplotlib.pyplot as plt
+import MyModules as my
+plot_settings = my.MyPlot()
 
 def MachUp(x):
     ## x = [t0, t1, t2, t3, t4, t5, d1, d2, d3, d4, d5]
@@ -362,36 +366,36 @@ def runCase(Ra, Rt, CLtarget, hb, CLmax=1.4, cw=1.):
 
 if __name__=="__main__":
     
-    plot_linewidth = 2.5
-    plot_fontsize = 20
-    plot_font = "Times New Roman"
-    tick_size = 18
-    axis_thickness = 3
-    tick_length = 4
-    tick_width = 2
-    large_font = 20
+    plot_linewidth = 2.0
+    # plot_fontsize = 20
+    # plot_font = "Times New Roman"
+    # tick_size = 18
+    # axis_thickness = 3
+    # tick_length = 4
+    # tick_width = 2
+    # large_font = 20
+    # # plot_size = (6.7, 5.2)
+    # # dist_plot_size = (6.7, 5.2)
     # plot_size = (6.7, 5.2)
     # dist_plot_size = (6.7, 5.2)
-    plot_size = (6.7, 5.2)
-    dist_plot_size = (6.7, 5.2)
     
     linestyle_list = ["--", "-"]#, "-.", "-"]
-    grid_on = True
-    grid_width = 1.5
-    x_label = r"$\mathregular{z/b}$"
+    # grid_on = True
+    # grid_width = 1.5
+    x_label = r"$z/b$"
     
-    fig, cdi = plt.subplots(figsize=plot_size)
-    cdi.set_xlabel(x_label, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    cdi.set_ylabel(r"$\mathregular{h/b}$", fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
-    cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
-    cdi.spines['top'].set_linewidth(axis_thickness)  
-    cdi.spines['right'].set_linewidth(axis_thickness)  
-    cdi.spines['bottom'].set_linewidth(axis_thickness)  
-    cdi.spines['left'].set_linewidth(axis_thickness)
-    cdi.grid(grid_on, linewidth=grid_width)
-    cdi.minorticks_off()
+    fig, cdi = plt.subplots()#figsize=plot_size)
+    cdi.set_xlabel(x_label)#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
+    cdi.set_ylabel(r"$\varGamma$")#, fontsize=plot_fontsize, fontname=plot_font, fontstyle='italic')
+    # cdi.tick_params(axis='both', labelsize=tick_size, width=tick_width, length=tick_length)
+    # cdi.spines['top'].set_linewidth(axis_thickness)  
+    # cdi.spines['right'].set_linewidth(axis_thickness)  
+    # cdi.spines['bottom'].set_linewidth(axis_thickness)  
+    # cdi.spines['left'].set_linewidth(axis_thickness)
+    # cdi.grid(grid_on, linewidth=grid_width)
+    # cdi.minorticks_off()
     
-    plt.axis('equal')
+    # plt.axis('equal')
     cdi.set_xlim(-0.5, 0.5)
     xticks = np.linspace(-0.5, 0.5, num=6)
     cdi.set_xticks(xticks)
@@ -408,8 +412,8 @@ if __name__=="__main__":
 
     
     current_folder = os.getcwd()
-    all_txt_files = ["RA8.0_RT1.0_CL0.5_hb0.25_cp1d5t_init0_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases1.txt",
-                     #"RA8.0_RT1.0_CL0.5_hb1000_cp4d5t_init0_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases1.txt",
+    all_txt_files = [#"RA8.0_RT1.0_CL0.5_hb0.25_cp1d5t_init0_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases1.txt",
+                     "RA8.0_RT1.0_CL0.5_hb1000_cp4d5t_init0_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases1.txt",
                      "RA8.0_RT1.0_CL0.5_hb0.25_cp4d5t_init0_LLsolvernonlinear_didistquadratic_grid100_optmethodSLSQP_dibounds(-90, 90)_opttol1e-12_optmaxiter1000_cases1.txt"]
     
     #[all_txt_files[3], all_txt_files[4], all_txt_files[6], all_txt_files[10]]#[all_txt_files[0], all_txt_files[1], all_txt_files[2], all_txt_files[6]]
@@ -474,7 +478,7 @@ if __name__=="__main__":
             yb = [-item/8 for item in y]
             zb = [-item/8 for item in z]
             
-            plt.plot(yb, zb, linewidth=plot_linewidth, linestyle=linestyle_list[count], color="black")
+            plt.plot(yb, gamma, linewidth=plot_linewidth, linestyle=linestyle_list[count], color="black")
             # CDi = float(data[CDi_index].split("fun: ")[1])/10000
             # print(i, x)
             # points.append([val, CDi])
@@ -487,5 +491,7 @@ if __name__=="__main__":
     #     count+=1
        
     cdi.plot([], [], color='black', linestyle="-", linewidth=plot_linewidth, label='Baseline')
-    cdi.plot([], [], color='black', linestyle="--", linewidth=plot_linewidth, label=r"$\mathregular{h/b=1000}$")
+    cdi.plot([], [], color='black', linestyle="--", linewidth=plot_linewidth, label=r"$h/b=1000$")
     plt.legend(fontsize=13, loc='lower right')
+    
+    fig.savefig("C:/Users/A02247969/Docs/AeroLab/Ground_Effect/New_plots/baseline_dihedral.pdf", bbox_inches='tight')
